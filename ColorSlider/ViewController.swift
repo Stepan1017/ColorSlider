@@ -20,28 +20,6 @@ class ViewController: UIViewController {
     @IBOutlet weak var greenSlider: UISlider!
     @IBOutlet weak var blueSlider: UISlider!
     
-    let color = UIColor()
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
-        //Label
-        redColorLabel.text = String(redSlider.value)
-        greenColorLabel.text = String(greenSlider.value)
-        blueColorLabel.text = String(blueSlider.value)
-        
-        //Slider
-        redSlider.minimumValue = 0
-        redSlider.maximumValue = 1
-        
-        blueSlider.minimumValue = 0
-        blueSlider.maximumValue = 1
-        
-        greenSlider.minimumValue = 0
-        greenSlider.maximumValue = 1
-        
-
-    }
 
     @IBAction func redSliderAction() {
         redColorLabel.text = String(round(100 * redSlider.value) / 100)
