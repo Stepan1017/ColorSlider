@@ -183,12 +183,12 @@
                     </view>
                     <connections>
                         <outlet property="blueColorLabel" destination="nrb-os-RBI" id="56f-ze-oUf"/>
-                        <outlet property="blueSliderLabel" destination="piW-te-QFq" id="EyE-z9-e5S"/>
+                        <outlet property="blueSlider" destination="piW-te-QFq" id="Vke-mX-k1R"/>
                         <outlet property="colorView" destination="AIN-pC-UHK" id="eLJ-7X-kdq"/>
                         <outlet property="greenColorLabel" destination="6lq-pv-fSf" id="xkl-ce-q0K"/>
-                        <outlet property="greenSliderLabel" destination="9ja-Aj-oqY" id="AIc-AQ-GTn"/>
+                        <outlet property="greenSlider" destination="9ja-Aj-oqY" id="6Cf-9H-Znx"/>
                         <outlet property="redColorLabel" destination="WgS-n0-pD5" id="Rxx-OL-613"/>
-                        <outlet property="redSliderLabel" destination="nGb-w4-kgG" id="Hx1-Uz-k0X"/>
+                        <outlet property="redSlider" destination="nGb-w4-kgG" id="Hx1-Uz-k0X"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
