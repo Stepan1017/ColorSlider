@@ -20,30 +20,17 @@ class ViewController: UIViewController {
     @IBOutlet weak var greenSlider: UISlider!
     @IBOutlet weak var blueSlider: UISlider!
     
-
-    @IBAction func redSliderAction() {
+    @IBAction func slidersAction() {
         redColorLabel.text = String(round(100 * redSlider.value) / 100)
-        colorView.backgroundColor = UIColor.init(red: CGFloat(redSlider.value),
-                                                 green: CGFloat(greenSlider.value),
-                                                 blue: CGFloat(blueSlider.value),
-                                                 alpha: 1.0)
-    }
-    
-    @IBAction func greenSliderAction() {
         greenColorLabel.text = String(round(100 * greenSlider.value) / 100)
+        blueColorLabel.text = String(round(100 * blueSlider.value) / 100)
+        
         colorView.backgroundColor = UIColor.init(red: CGFloat(redSlider.value),
                                                  green: CGFloat(greenSlider.value),
                                                  blue:CGFloat(blueSlider.value),
                                                  alpha: 1.0)
     }
     
-    @IBAction func blueSliderAction() {
-        blueColorLabel.text = String(round(100 * blueSlider.value) / 100)
-        colorView.backgroundColor = UIColor.init(red: CGFloat(redSlider.value),
-                                                 green: CGFloat(greenSlider.value),
-                                                 blue:CGFloat(blueSlider.value),
-                                                 alpha: 1.0)
-    }
 }
 
 
